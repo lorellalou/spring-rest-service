@@ -35,7 +35,7 @@ public class RootControllerTest {
     @Before
     public void setUp() {
 
-        target = ClientBuilder.newClient().target(format("http://localhost:%d/rest/", port));
+        target = ClientBuilder.newClient().target(format("http://localhost:%d/service/rest/", port));
     }
 
     @Test

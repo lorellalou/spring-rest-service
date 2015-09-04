@@ -1,4 +1,0 @@
-tomcat:
-  image: lrolaz/tomcat:7
-  ports:
-    - 8080:8080

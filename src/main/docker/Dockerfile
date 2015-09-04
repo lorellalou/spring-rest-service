@@ -1,6 +1,8 @@
-FROM busybox
+FROM lrolaz/tomcat-webapp:7
 
-ADD spring-rest-example-1.0-SNAPSHOT.war /data/webapps/service.jar
+ADD spring-rest-service-*.war ${TOMCAT_WEBAPPS}/service/
+RUN cd ${TOMCAT_WEBAPPS}/service/ && unzip *.war && rm -f *.war && chown -R 167:167 . 
 
-VOLUME /data/webapps
+VOLUME ${TOMCAT_WEBAPPS}/service
 
+ 

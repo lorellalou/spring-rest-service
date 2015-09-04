@@ -66,7 +66,7 @@ public class UserControllerTest {
 
         persistedUser = steps.given_a_user_has_been_persisted();
 
-        target = ClientBuilder.newClient().target(format("http://localhost:%d/rest/", port)).path("users");
+        target = ClientBuilder.newClient().target(format("http://localhost:%d/service/rest/", port)).path("users");
     }
 
     @Test

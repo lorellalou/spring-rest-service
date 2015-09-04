@@ -14,13 +14,13 @@
         A simple Spring Boot webapp to play with.
     </description>
 
-	<artifactId>spring-rest-example</artifactId>
+	<artifactId>spring-rest-service</artifactId>
 
 	<packaging>war</packaging>
 
 	<version>1.0-SNAPSHOT</version>
 
-	<url>https://github.com/lrolaz/spring-rest-example</url>
+	<url>https://github.com/lrolaz/spring-rest-service</url>
 
 	<properties>
 		<java.version>1.8</java.version>
