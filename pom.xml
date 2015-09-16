@@ -8,7 +8,7 @@
 		<version>1.2.2.RELEASE</version>
 	</parent>
 
-	<name>spring-rest-example</name>
+	<name>spring-rest-service</name>
 
 	<description>
         A simple Spring Boot webapp to play with.
@@ -90,6 +90,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+
+    	<dependency>
+        	<groupId>mysql</groupId>
+        	<artifactId>mysql-connector-java</artifactId>
+    	</dependency>
 
 		<!-- The HSQL in memory database where all the data is persisted. -->
 		<dependency>

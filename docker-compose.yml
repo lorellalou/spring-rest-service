@@ -1,4 +1,4 @@
 tomcat:
-  image: lrolaz/tomcat:7
+  image: springrestdocker_tomcat:latest
   ports:
     - 8080:8080
