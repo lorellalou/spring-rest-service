@@ -1,0 +1,17 @@
+server:
+  contextPath: /service
+  port: 8080
+logging:
+  level:
+    org.springframework: INFO
+spring.datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mysql/test
+    username: root
+    password: password 
+spring.jpa:
+  hibernate.ddl-auto: create
+  database-platform: org.hibernate.dialect.MySQLInnoDBDialect
+
+         
+    
