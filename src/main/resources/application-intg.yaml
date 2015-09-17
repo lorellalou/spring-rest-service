@@ -12,6 +12,10 @@ spring.datasource:
 spring.jpa:
   hibernate.ddl-auto: create
   database-platform: org.hibernate.dialect.MySQL5Dialect
-
+info.build:
+  artifact: "@project.artifactId@"
+  name: "@project.name@"
+  description: "@project.description@"
+  version: "@project.version@" 
          
     

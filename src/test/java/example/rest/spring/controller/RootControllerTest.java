@@ -43,6 +43,6 @@ public class RootControllerTest {
 
         final Response response = target.path("/").request(APPLICATION_JSON).get();
 
-        assertEquals(singletonMap("running", true), response.readEntity(Map.class));
+        assertEquals(singletonMap("running", "test"), response.readEntity(Map.class));
     }
 }
